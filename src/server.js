@@ -7,7 +7,7 @@ const __dirname = resolve()
 
 const { PORT } = process.env
 const server = express()
-console.log('fo-')
+
 server.use(express.static(join(__dirname, "public/uploads")))
 
 server.get('/templates', (req, res) => res.sendFile(join(__dirname, "public/uploads", 'wallpaper.jpg')))
