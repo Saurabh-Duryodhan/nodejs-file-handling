@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-file-handling",
+  "module": "./src/server.js",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.3"
+  },
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
